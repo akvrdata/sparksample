@@ -3,12 +3,11 @@ import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD
 import org.apache.spark.SparkContext._
 
-
-object spark_sample {
-
   val conf = new SparkConf().setAppName("SparkSample")
   val sc = new SparkContext(conf);
   sc.setLogLevel("WARN")
+
+object spark_sample {
 
   def main(args:Array[String])
   {
