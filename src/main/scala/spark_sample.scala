@@ -10,7 +10,7 @@ object spark_sample {
   def main(args:Array[String])
   {
 
- val conf = new SparkConf().setAppName("spark_sample").getOrCreate();
+ val conf = new SparkConf().setAppName("spark_sample").setMaster(master);
   val sc = new SparkContext(conf);
   sc.setLogLevel("WARN")
 
