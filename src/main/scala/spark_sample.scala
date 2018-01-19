@@ -4,7 +4,7 @@ import org.apache.spark.rdd.RDD
 import org.apache.spark.SparkContext._
 
 
-class spark_sample {
+object spark_sample {
 
   val conf = new SparkConf().setAppName("SparkSample")
   val sc = new SparkContext(conf);
