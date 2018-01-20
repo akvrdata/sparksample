@@ -16,6 +16,7 @@ object spark_sample {
 
     val l = List("arun","vishnu","swathi","sachin","aman","pratap")
     val rdd = l.map(x=>(x,1))
+rdd.take(5)
 
   }
 
