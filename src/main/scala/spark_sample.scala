@@ -10,8 +10,9 @@ object spark_sample {
   def main(args:Array[String])
   {
 
-  val conf = new SparkConf().setAppName("spark_sample")
-  val sc = new SparkContext(conf)
+     val conf = new SparkConf().setAppName("soark_sample")
+    val sc = new SparkContext(conf);
+    sc.setLogLevel("WARN")
 
     val l = List("arun","vishnu","swathi","sachin","aman","pratap")
     val rdd = l.map(x=>(x,1))
