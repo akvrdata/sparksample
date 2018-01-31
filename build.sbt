@@ -4,8 +4,6 @@ name := "spark_sample"
 
 version := "0.1"
 
-scalaVersion := "2.11.11"
-
 scalaVersion := "2.10.4"
 
 // additional libraries
